@@ -262,7 +262,9 @@ a:hover > .card{
   background-color: whitesmoke;
 }
 .section{
-  padding: 3vw;
+  padding-top: 3vh;
+  padding-left: 6vw;
+  padding-right: 6vw;
 }
 .modal-content-bear{
   display: flex

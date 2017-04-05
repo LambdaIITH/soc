@@ -3,15 +3,12 @@
 A website that showcases projects! **If you want to use it and it's not exactly
 fitting your purpose, please do make upstream changes. We expect this project
 to be of use to others and we're happy to make it more generic so it's easier
-to adapt to other organizations.** This was built by coala community, to view
-live projects visit [projects.coala.io](https://projects.coala.io)
+to adapt to other organizations.** 
 
-(It'd be nice to have an organization YML or so e.g.)
 
 ## Purpose
 
-This is designed for GSoC but can be used for other initiatives at the same
-time. We use it for research theses, GSoC, GCI and maybe others in the future.
+This page was designed for &lambda; SoC. It is based off of a Coala's GSoC portal.
 
 Why?
 
@@ -29,8 +26,8 @@ Why?
 
 To clone the repository and run this website on your local machine, type the following commands:
 
-    $ git clone https://github.com/coala/projects.git
-    $ cd projects
+    $ git clone https://github.com/LambdaIITH/iithsoc-ideas.git
+    $ cd iithsoc-ideas
     $ python -m SimpleHTTPServer 8080
 
 
@@ -52,13 +49,13 @@ Mentors and admins can define projects as JSON using the following structure:
   ],
   "difficulty" : "low|medium|high",
   "issues" : [
-    "https://github.com/coala/coala/issues/####"
+    "https://github.com/LambdaIITH/iithsoc-ideas/issues/####"
   ],
   "mentors" : [
-    "sils",
-    "sims1253"
+    "blabla",
+    "blublu12356"
   ],
-  "initiatives" : ["GSoC"],
+  "initiatives" : ["LambdaSoC"],
   "tags" : ["Plugins", "CI"],
   "markdown" : "Add the markdown file in data/projects/ directory. The name of that .md file should come here.",
   "collaborating_projects" : ["Add umbrella and sub-orgs here"]
@@ -69,26 +66,25 @@ Mentors and admins can define projects as JSON using the following structure:
 Sample Markdown File
 
 This file should contain Project Description and Milestones in following format.
-_You should have atleast these three milestones for GSoC projects._
+_You should have atleast these three milestones for &lambda; SoC projects._
 
 ```
-This space is for the main description. Use it wisely. 
 
 #### Milestones
 
-##### GSOC 2017 COMMUNITY BONDING
+##### COMMUNITY BONDING
 
 * Conceptual work should be finished.
 * The student have a repository, know how to work with the community.
 * The applicant should know the community.
 
-##### GSOC 2017 MIDTERM
+##### MIDTERM
 
 * Everything listed here has to be reviewed and merged by midterm.
 * No exceptions to that. Changing the goals is possible together with mentors.
 * Yes, that includes tests and documentation.
 
-##### GSOC 2017 FINAL
+##### FINAL
 
 * Everything has to be reviewed and merged.
 * Including tests and docs, again.
