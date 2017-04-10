@@ -1,114 +1,50 @@
 projects = [
 	{
-		"name" : "Project Name",
-		"desc" : "Write down the desription of whatever project you want here!",
+		"name" : "Dashboard (UI/UX and frontend)",
+		"desc" : "Frontend and UI/UX design for Dashboard(https://github.com/LambdaIITH/Dashboard)",
 		"requirements" : [
-				"The applicant should be be familiar with a language, maybe?",
-				"The applicant should be reasonable?",
-				"The applicant has contributed sperm."
+				"The applicant should atleast be familiar with atleast basic html/css/js",
+				"The applicant should be reasonably interested in Material design",
+				"The applicant should be aware of the ongoing discussions in Slack channel",
+				"The applicant should preferably have basic knowledge of using Angular js for frontend scripting"
 		],
-		"difficulty" : "high",
+		"difficulty" : "medium",
 		"issues" : [
 		],
-		"mentors" : ["CrazyByDefault"],
-		"tags" : ["Bears", "Web"],
-		"markdown": "sample.md",
-		"collaborating_projects" : ["anything prexisting this touches?"]
+		"mentors" : ["Siddhartha1234"],
+		"tags" : ["Frontend", "Web"],
+		"markdown": "dashboard_frontend.md",
+		"collaborating_projects" : ["Dashboard"]
 	},
 	{
-		"name" : "Project Name",
-		"desc" : "Write down the desription of whatever project you want here!",
+		"name" : "Dashboard (Backend)",
+		"desc" : "Backend for Dashboard(https://github.com/LambdaIITH/Dashboard)",
 		"requirements" : [
-				"The applicant should be be familiar with a language, maybe?",
-				"The applicant should be reasonable?",
-				"The applicant has contributed sperm."
+				"The applicant should preferably be familiar with Node js",
+				"The applicant should be aware of the ongoing discussions in Slack channel",
 		],
-		"difficulty" : "high",
+		"difficulty" : "medium",
 		"issues" : [
 		],
-		"mentors" : ["YourMom?"],
-		"tags" : ["Bears", "Web"],
-		"markdown": "sample.md",
-		"collaborating_projects" : ["anything prexisting this touches?"]
+		"mentors" : ["Siddhartha1234"],
+		"tags" : ["Backend", "Web"],
+		"markdown": "dashboard_backend.md",
+		"collaborating_projects" : ["Dashboard"]
 	},
 	{
-		"name" : "Project Name",
-		"desc" : "Write down the desription of whatever project you want here!",
+		"name" : "SmartStor v2",
+		"desc" : "Improvements in app in all platforms, adding new features to SmartStor(https://github.com/Siddhartha1234/SmartStor)",
 		"requirements" : [
-				"The applicant should be be familiar with a language, maybe?",
-				"The applicant should be reasonable?",
-				"The applicant has contributed sperm."
+				"The applicant should be be familiar with Android coding techniques.",
+				"The applicant should preferably have some knowledge in writing multi platform apps.",
+				"The applicant should fix minor issues and suggest for features in the repo."
 		],
 		"difficulty" : "high",
 		"issues" : [
 		],
-		"mentors" : ["YourMom?"],
-		"tags" : ["Bears", "Web"],
-		"markdown": "sample.md",
-		"collaborating_projects" : ["anything prexisting this touches?"]
-	},
-	{
-		"name" : "Project Name",
-		"desc" : "Write down the desription of whatever project you want here!",
-		"requirements" : [
-				"The applicant should be be familiar with a language, maybe?",
-				"The applicant should be reasonable?",
-				"The applicant has contributed sperm."
-		],
-		"difficulty" : "high",
-		"issues" : [
-		],
-		"mentors" : ["YourMom?"],
-		"tags" : ["Bears", "Web"],
-		"markdown": "sample.md",
-		"collaborating_projects" : ["anything prexisting this touches?"]
-	},
-	{
-		"name" : "Project Name",
-		"desc" : "Write down the desription of whatever project you want here!",
-		"requirements" : [
-				"The applicant should be be familiar with a language, maybe?",
-				"The applicant should be reasonable?",
-				"The applicant has contributed sperm."
-		],
-		"difficulty" : "high",
-		"issues" : [
-		],
-		"mentors" : ["YourMom?"],
-		"tags" : ["Bears", "Web"],
-		"markdown": "sample.md",
-		"collaborating_projects" : ["anything prexisting this touches?"]
-	},
-	{
-		"name" : "Project Name",
-		"desc" : "Write down the desription of whatever project you want here!",
-		"requirements" : [
-				"The applicant should be be familiar with a language, maybe?",
-				"The applicant should be reasonable?",
-				"The applicant has contributed sperm."
-		],
-		"difficulty" : "high",
-		"issues" : [
-		],
-		"mentors" : ["YourMom?"],
-		"tags" : ["Bears", "Web"],
-		"markdown": "sample.md",
-		"collaborating_projects" : ["anything prexisting this touches?"]
-	},
-	{
-		"name" : "Project Name",
-		"desc" : "Write down the desription of whatever project you want here!",
-		"requirements" : [
-				"The applicant should be be familiar with a language, maybe?",
-				"The applicant should be reasonable?",
-				"The applicant has contributed sperm."
-		],
-		"difficulty" : "high",
-		"issues" : [
-		],
-		"mentors" : ["YourMom?"],
-		"tags" : ["Bears", "Web"],
-		"markdown": "sample.md",
-		"collaborating_projects" : ["anything prexisting this touches?"]
+		"mentors" : ["Siddhartha1234"],
+		"tags" : ["Bears", "Android/Linux/Windows/OS X"],
+		"markdown": "smartstor_v2.md",
+		"collaborating_projects" : ["SmartStor"]
 	}
 ]
