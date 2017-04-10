@@ -2,7 +2,7 @@ faq = {
 
 "Who can apply?" : "apply.md",
 
-"What are the requirements to be accepted for &#955; SoC?" : "gsoc_requirements.md",
+"What are the requirements to be accepted for &#955; SoC?" : "lsoc_requirements.md",
 
 "I have an own project idea! (Mentors and students!)" : "own_project_idea.md",
 
