@@ -1,6 +1,6 @@
 We expect you to:
 
-* Be active on [Discord](https://discord.gg/BGPEeSA).
+* Be active on [Gitter](https://gitter.im/lambda_iith/LambdaSoC).
 * Participate in weekly (online) meetings with your mentor.
 * Review Pull Requests of other students and contributors. This is a big part of open
 source work and we'll make sure to help you get started.
