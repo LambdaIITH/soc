@@ -58,12 +58,6 @@ _You should have atleast these three milestones for &lambda; SoC projects._
 
 #### Milestones
 
-##### COMMUNITY BONDING
-
-* Conceptual work should be finished.
-* The student have a repository, know how to work with the community.
-* The applicant should know the community.
-
 ##### MIDTERM
 
 * Everything listed here has to be reviewed and merged by midterm.
