@@ -43,7 +43,7 @@ projects = [
 		"issues" : [
 		],
 		"mentors" : ["Siddhartha1234"],
-		"tags" : ["Bears", "Android/Linux/Windows/OS X"],
+		"tags" : ["Android/Linux/Windows/OS X"],
 		"markdown": "smartstor_v2.md",
 		"collaborating_projects" : ["SmartStor"]
 	}
