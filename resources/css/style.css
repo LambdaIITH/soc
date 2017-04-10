@@ -291,13 +291,13 @@ a:hover > .card{
   height: 200px;
 }
 .project-description > p > a{
-  color: cornsilk
+  color: #8e44ad;
 }
 .project-description > p > a:hover{
   opacity: 0.7;
 }
 .markdown  a{
-  color: azure;
+  color: #8e44ad;
 }
 .markdown a:hover{
   opacity: 0.7;
