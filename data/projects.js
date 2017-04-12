@@ -1,5 +1,55 @@
 projects = [
 	{
+		"name" : "Gymkhana App",
+		"desc" : "Official Android application for the IITH Gymkhana.",
+		"requirements" : [
+				"The applicant should know how to make Android apps using Android Studio.",
+				"The applicant must have a good taste in UI/UX.",
+				
+		],
+		"difficulty" : "medium",
+		"issues" : [
+		],
+		"mentors" : ["ayushpateria"],
+		"tags" : ["Android"],
+		"markdown": "gymkhana_app.md",
+		"collaborating_projects" : ["Gymkhana"]
+	},
+	{
+		"name" : "Gymkhana Backend",
+		"desc" : "This will serve as the backend of the official Gymkhana Android app. Involves writing API endpoints for various features.",
+		"requirements" : [
+				"The applicant should be comfortable in atleast one of PHP/Node.js/Ruby/Python",
+				"Candidates with working knowledge of a web framework in any of the above languages will be preferred.",
+				"The applicant should know the basic principles of RESTful APIs"
+				
+		],
+		"difficulty" : "medium",
+		"issues" : [
+		],
+		"mentors" : ["ayushpateria"],
+		"tags" : ["Backend"],
+		"markdown": "gymkhana_backend.md",
+		"collaborating_projects" : ["Gymkhana"]
+	},
+	{
+		"name" : "Gymkhana Admin Panel",
+		"desc" : "This will serve as the admin panel to be used by the current Gymkhana members. They will use it regularly to give updates about their work and expenditures.",
+		"requirements" : [
+				"The applicant should be comfortable in HTML, CSS and JS.",
+				"The applicant should know how to communicate with RESTful APIs."
+				"Experience in AngularJS/ReactJS will be preffered."
+				
+		],
+		"difficulty" : "easy",
+		"issues" : [
+		],
+		"mentors" : ["ayushpateria"],
+		"tags" : ["Backend"],
+		"markdown": "gymkhana_admin.md",
+		"collaborating_projects" : ["Gymkhana"]
+	},
+	{
 		"name" : "Dashboard (UI/UX and frontend)",
 		"desc" : "Frontend and UI/UX design for Dashboard(https://github.com/LambdaIITH/Dashboard)",
 		"requirements" : [
