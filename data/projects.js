@@ -36,14 +36,15 @@ projects = [
 		"name" : "Dashboard (Backend)",
 		"desc" : "Backend for Dashboard(https://github.com/LambdaIITH/Dashboard)",
 		"requirements" : [
-				"The applicant should be comfortable in atleast one of PHP/Node.js/Ruby/Python",
-				"Candidates with working knowledge of a web framework in any of the above languages will be preferred.",
-				"The applicant should know the basic principles of RESTful APIs"
+				"The applicant should be comfortable in Node.js",
+				"The applicant should know the basic principles of RESTful APIs",
+				"The applicant should be aware of the ongoing discussions in Slack channel."
+				
 		],
 		"difficulty" : "medium",
 		"issues" : [
 		],
-		"mentors" : ["Siddhartha1234", "ayushpateria"],
+		"mentors" : ["Siddhartha1234"],
 		"tags" : ["Backend", "Web"],
 		"markdown": "dashboard_backend.md",
 		"collaborating_projects" : ["Dashboard"]
@@ -60,7 +61,7 @@ projects = [
 		"difficulty" : "easy",
 		"issues" : [
 		],
-		"mentors" : ["ayushpateria"],
+		"mentors" : ["Siddhartha1234". "ayushpateria"],
 		"tags" : ["Frontend", "Web"],
 		"markdown": "dashboard_admin.md",
 		"collaborating_projects" : ["Dashboard"]
