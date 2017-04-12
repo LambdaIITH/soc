@@ -1,6 +1,6 @@
 projects = [
 	{
-		"name" : "Gymkhana App",
+		"name" : "Dashboard Android App",
 		"desc" : "Official Android application for the IITH Gymkhana.",
 		"requirements" : [
 				"The applicant should know how to make Android apps using Android Studio.",
@@ -13,40 +13,6 @@ projects = [
 		"mentors" : ["ayushpateria"],
 		"tags" : ["Android"],
 		"markdown": "gymkhana_app.md",
-		"collaborating_projects" : ["Gymkhana"]
-	},
-	{
-		"name" : "Gymkhana Backend",
-		"desc" : "This will serve as the backend of the official Gymkhana Android app. Involves writing API endpoints for various features.",
-		"requirements" : [
-				"The applicant should be comfortable in atleast one of PHP/Node.js/Ruby/Python",
-				"Candidates with working knowledge of a web framework in any of the above languages will be preferred.",
-				"The applicant should know the basic principles of RESTful APIs"
-				
-		],
-		"difficulty" : "medium",
-		"issues" : [
-		],
-		"mentors" : ["ayushpateria"],
-		"tags" : ["Backend"],
-		"markdown": "gymkhana_backend.md",
-		"collaborating_projects" : ["Gymkhana"]
-	},
-	{
-		"name" : "Gymkhana Admin Panel",
-		"desc" : "This will serve as the admin panel to be used by the current Gymkhana members. They will use it regularly to give updates about their work and expenditures.",
-		"requirements" : [
-				"The applicant should be comfortable in HTML, CSS and JS.",
-				"The applicant should know how to communicate with RESTful APIs."
-				"Experience in AngularJS/ReactJS will be preffered."
-				
-		],
-		"difficulty" : "easy",
-		"issues" : [
-		],
-		"mentors" : ["ayushpateria"],
-		"tags" : ["Backend"],
-		"markdown": "gymkhana_admin.md",
 		"collaborating_projects" : ["Gymkhana"]
 	},
 	{
@@ -70,15 +36,33 @@ projects = [
 		"name" : "Dashboard (Backend)",
 		"desc" : "Backend for Dashboard(https://github.com/LambdaIITH/Dashboard)",
 		"requirements" : [
-				"The applicant should preferably be familiar with Node js",
-				"The applicant should be aware of the ongoing discussions in Slack channel",
+				"The applicant should be comfortable in atleast one of PHP/Node.js/Ruby/Python",
+				"Candidates with working knowledge of a web framework in any of the above languages will be preferred.",
+				"The applicant should know the basic principles of RESTful APIs"
 		],
 		"difficulty" : "medium",
 		"issues" : [
 		],
-		"mentors" : ["Siddhartha1234"],
+		"mentors" : ["Siddhartha1234", "ayushpateria"],
 		"tags" : ["Backend", "Web"],
 		"markdown": "dashboard_backend.md",
+		"collaborating_projects" : ["Dashboard"]
+	},
+	{
+		"name" : "Dashboard Admin Panel",
+		"desc" : "This will serve as the admin panel to be used by the current Gymkhana members. They will use it regularly to give updates about their work and expenditures.",
+		"requirements" : [
+				"The applicant should be comfortable in HTML, CSS and JS.",
+				"The applicant should know how to communicate with RESTful APIs."
+				"Experience in AngularJS/ReactJS will be preffered."
+				
+		],
+		"difficulty" : "easy",
+		"issues" : [
+		],
+		"mentors" : ["ayushpateria"],
+		"tags" : ["Frontend", "Web"],
+		"markdown": "dashboard_admin.md",
 		"collaborating_projects" : ["Dashboard"]
 	},
 	{
