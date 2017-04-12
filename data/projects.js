@@ -4,7 +4,7 @@ projects = [
 		"desc" : "Official Android application for the IITH Gymkhana.",
 		"requirements" : [
 				"The applicant should know how to make Android apps using Android Studio.",
-				"The applicant must have a good taste in UI/UX.",
+				"The applicant must have a good taste in UI/UX."
 				
 		],
 		"difficulty" : "medium",
@@ -54,14 +54,14 @@ projects = [
 		"desc" : "This will serve as the admin panel to be used by the current Gymkhana members. They will use it regularly to give updates about their work and expenditures.",
 		"requirements" : [
 				"The applicant should be comfortable in HTML, CSS and JS.",
-				"The applicant should know how to communicate with RESTful APIs."
+				"The applicant should know how to communicate with RESTful APIs.",
 				"Experience in AngularJS/ReactJS will be preffered."
 				
 		],
 		"difficulty" : "easy",
 		"issues" : [
 		],
-		"mentors" : ["Siddhartha1234". "ayushpateria"],
+		"mentors" : ["Siddhartha1234", "ayushpateria"],
 		"tags" : ["Frontend", "Web"],
 		"markdown": "dashboard_admin.md",
 		"collaborating_projects" : ["Dashboard"]
