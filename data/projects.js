@@ -11,7 +11,7 @@ projects = [
 		"difficulty" : "medium",
 		"issues" : [
 		],
-		"mentors" : ["Siddhartha1234"],
+		"mentors" : ["Someone"],
 		"tags" : ["Frontend", "Web"],
 		"markdown": "dashboard_frontend.md",
 		"collaborating_projects" : ["Dashboard"]
@@ -46,5 +46,20 @@ projects = [
 		"tags" : ["Android/Linux/Windows/OS X"],
 		"markdown": "smartstor_v2.md",
 		"collaborating_projects" : ["SmartStor"]
-	}
+	},
+	{
+		"name" : "Feature-rich Online IDE",
+		"desc" : "Lightweight online IDE with GitHub integration and autocomplete/shorthand code plugins, and more.",
+		"requirements" : [
+				"The applicant should be be familiar with Qt or OpenGL for the frontend.",
+				"The applicant should be familiar with either of C++ or Python for running the backend scripts."
+		],
+		"difficulty" : "high",
+		"issues" : [
+		],
+		"mentors" : ["Siddhartha1234"],
+		"tags" : ["Android/Linux/Windows/OS X"],
+		"markdown": "ide.md",
+		"collaborating_projects" : [""]
+	},
 ]
