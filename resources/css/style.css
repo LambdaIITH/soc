@@ -257,6 +257,7 @@ a:hover > .card{
 .profile{
   background-color: #000;
   color: #fff;
+  padding-bottom: 2vh;
 }
 .dashboard{
   background-color: whitesmoke;
@@ -267,7 +268,7 @@ a:hover > .card{
   padding-right: 6vw;
 }
 .modal-content-bear{
-  display: flex
+  display: flex;
 }
 .project-name{
   font-size: 2em;
