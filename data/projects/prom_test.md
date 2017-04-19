@@ -4,3 +4,6 @@ Prometheus is not really excellent in the correctness/bug-free-ness department y
 
 This end-result of this project is to have a test environment that runs a Prometheus release end-to-end (with different SD mechanisms) for a while and checks the results (evaluated expressions, alerts, etc.) for sanity.  
 
+**Timeline**
+
+Will be decided based on the candidate.

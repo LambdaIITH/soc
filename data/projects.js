@@ -66,28 +66,29 @@ projects = [
 		"name" : "Prometheus - Alertmanager UI and API improvements",
 		"desc" : "UI improvements, and API modification to facilitate complex filtering queries.",
 		"requirements" : [
-				"Nothing but enthusiasm."
-				
+			"Enthusiasm to work 5-6 hours a day to learn.",
+			"Basics of HTML, CSS, JS would be good but not mandatory."
 		],
-		"difficulty" : "high",
+		"difficulty" : "medium",
 		"issues" : [
 		],
 		"mentors" : ["Gouthamve"],
-		"tags" : ["Prometheus"],
-		"markdown": "prom_am.md",
+		"tags" : ["Prometheus", "ELM", "Golang", "Monitoring", "devOps"],
+		"markdown": "prom_am_ui.md",
 		"collaborating_projects" : ["Prometheus", "Prometheus - Alertmanager"]
 	},
 	{
 		"name" : "Prometheus - Building a full integration testing environment",
-		"desc" : "Develop a full test environment for Prometheus",
+		"desc" : "Develop a full integration testing environment for Prometheus",
 		"requirements" : [
-				"Nothing but enthusiasm."
+				"Need to work >5hrs a day."
 		],
 		"difficulty" : "high",
 		"issues" : [
+			"https://github.com/prometheus/prometheus/issues/2497"
 		],
 		"mentors" : ["Gouthamve"],
-		"tags" : ["Prometheus"],
+		"tags" : ["Prometheus", "Golang", "Monitoring", "devOps"],
 		"markdown": "prom_test.md",
 		"collaborating_projects" : ["Prometheus"]
 	},
@@ -95,14 +96,18 @@ projects = [
 		"name" : "Prometheus - Tools for building and testing alerting expressions",
 		"desc" : "Checking if users' alerting expressions are correct.",
 		"requirements" : [
-				"Nothing but enthusiasm."
+				"Need to work >5hrs a day."
 		],
 		"difficulty" : "high",
 		"issues" : [
+			"https://github.com/prometheus/prometheus/issues/1154",
+			"https://github.com/prometheus/prometheus/issues/1695",
+			"https://github.com/prometheus/prometheus/issues/1220",
+			"https://github.com/prometheus/prometheus/issues/1219",
 		],
 		"mentors" : ["Gouthamve"],
-		"tags" : ["Prometheus"],
-		"markdown": "prom_test2.md",
+		"tags" : ["Prometheus", "Golang", "Monitoring", "devOps"],
+		"markdown": "prom_alerts.md",
 		"collaborating_projects" : ["Prometheus"]
 	},
 ]
