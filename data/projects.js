@@ -11,7 +11,6 @@ projects = [
 		"difficulty" : "medium",
 		"issues" : [
 		],
-		"mentors" : ["Someone"],
 		"tags" : ["Frontend", "Web"],
 		"markdown": "dashboard_frontend.md",
 		"collaborating_projects" : ["Dashboard"]
@@ -121,4 +120,4 @@ projects = [
 		"tags" : ["Machine Learning", "Audio Processing"],
 		"markdown": "auto_dj.md"
 	}
-]
+ ]
