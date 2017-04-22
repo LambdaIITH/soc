@@ -9,6 +9,12 @@ This is the feature list -
 -  Adding additional beats/drops to a single track based on it's features
 -  Mixing the next song with the first, _"like a DJ would"._
 
+The student should propose the following - 
+
+- Methodology of song prediction, song analaysis, and beat mixing
+- Backend service to vend music
+- Backend vs frontend load distribution
+
 
 **Timeline**
 
