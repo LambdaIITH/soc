@@ -110,4 +110,15 @@ projects = [
 		"markdown": "prom_alerts.md",
 		"collaborating_projects" : ["Prometheus"]
 	},
+	{
+		"name" : "Auto DJ",
+		"desc" : "Create a Machine Learning program that not only chooses the next song, but mixes it in with the current.",
+		"requirements" : [
+				"Machine Learning",
+				"Audio processing"
+		],
+		"difficulty" : "high",
+		"tags" : ["Machine Learning", "Audio Processing"],
+		"markdown": "auto_dj.md"
+	}
 ]
