@@ -35,7 +35,44 @@
     		<img src="resources/images/money-80.png" width="72px" height="72px">
     		<div class="subtitle">Earn</div>
     		<div class="description">Submit your code for the world to see, and earn!</div>
-    		
 
-    	</div>
-</div>
+        </div>
+
+    </div>
+
+
+    <div class="row" style="padding-top: 7vh; padding-bottom: 7vh; background-color: #5d137d">
+        <div class="col-md-4 col-md-offset-4 text-center">
+            <a href="https://goo.gl/forms/aS5yc7bqxPBu1RyH3">
+                <button class="explore waves-effect waves-light btn"><span style="font-size: 1.6em">Apply Here</span></button>
+            </a>
+        </div>
+    </div>
+
+<script type="text/javascript">
+  $(document).ready(function () {
+    
+    $('.explore').click(function () {
+      $('html,body').animate({
+        scrollTop: $(".showcase").offset().top},
+        'slow');
+    })
+
+    $('.modal').modal({
+      dismissible: true, // Modal can be dismissed by clicking outside of the modal
+      opacity: 0.8, // Opacity of modal background
+      in_duration: 300, // Transition in duration
+      out_duration: 200, // Transition out duration
+      starting_top: '10%', // Starting top style attribute
+      ending_top: '10%', // Ending top style attribute
+      ready: function(modal, trigger) { // Callback for Modal open. Modal and trigger parameters available.
+        $(this).focus();
+      },
+      complete: function() { 
+      angular.element('#projectCtrl').scope().updateLink();
+      angular.element('#projectCtrl').scope().$apply();
+     } // Callback for Modal close
+    }
+    );
+  })
+</script>
